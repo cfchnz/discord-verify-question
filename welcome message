@@ -1,0 +1,8 @@
+$nomention
+$title[Verify]
+$description[Hello! This server has a verification system. You need to answer 5 questions correctly to start an unforgettable adventure with Wumpus on our server!]
+$color[7b28b7]
+$onlyAdmin[This command only for admins!]
+$newSelectMenu[v0;1;1;Start a verification?;]
+$addSelectMenuOption[v0;Yes!;vy0;Clicking here will start the verification step.;no;✔️;] 
+$addSelectMenuOption[v0;No...;vn0;Clicking here will not start the verification step.;no;❌;]
