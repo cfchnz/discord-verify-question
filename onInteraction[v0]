@@ -1,0 +1,20 @@
+$if[$message==vy0]
+$nomention
+$title[First Question]
+$description[Question]
+$color[1bc35e]
+$removeComponent[v0]
+$newSelectMenu[v1;1;1;Answer;]
+$addSelectMenuOption[v1;1 variant;va11;;no;1⃣;] 
+$addSelectMenuOption[v1;2 variant;va12;;no;2⃣;]
+$addSelectMenuOption[v1;3 variant;va13;;no;3⃣;] 
+$ephemeral
+$endif
+
+$if[$message==vn0]
+$nomention
+$title[Ok]
+$description[Ok 😃👍]
+$removeComponent[v0]
+$ephemeral
+$endif
