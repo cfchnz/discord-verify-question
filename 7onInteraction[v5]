@@ -1,0 +1,19 @@
+$if[$message==va51]
+$nomention
+$title[You have successfully passed verification!]
+$description[Press the button to get access to the server again!]
+$color[1bc35e]
+$removeComponent[v5]
+$ephemeral
+$addButton[no;verifyacc;Withdraw access;success;no;✔️]
+$endif
+
+$if[$message==va52]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
+
+$if[$message==va53]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
