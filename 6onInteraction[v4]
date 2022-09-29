@@ -1,0 +1,22 @@
+$if[$message==va41]
+$nomention
+$title[Final Question]
+$description[Question]
+$color[1bc35e]
+$removeComponent[v4]
+$newSelectMenu[v5;1;1;Answer;]
+$addSelectMenuOption[v5;1 variant;va51;;no;1⃣;] 
+$addSelectMenuOption[v5;2 variant;va52;;no;2⃣;]
+$addSelectMenuOption[v5;3 variant;va53;;no;3⃣;] 
+$ephemeral
+$endif
+
+$if[$message==va42]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
+
+$if[$message==va43]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
