@@ -1,0 +1,22 @@
+$if[$message==va21]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
+
+$if[$message==va22]
+$nomention
+$giveRole[$authorID;$getServerVar[non]]
+$endif
+
+$if[$message==va23]
+$nomention
+$title[Third Question]
+$description[Question]
+$color[1bc35e]
+$removeComponent[v2]
+$newSelectMenu[v3;1;1;Answer;]
+$addSelectMenuOption[v3;1 variant;va31;;no;1⃣;] 
+$addSelectMenuOption[v3;2 variant;va32;;no;2⃣;]
+$addSelectMenuOption[v3;3 variant;va33;;no;3⃣;] 
+$ephemeral
+$endif
